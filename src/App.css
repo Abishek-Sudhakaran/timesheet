@@ -1,0 +1,109 @@
+html,
+body {
+  margin: 0;
+  background:#f4f7f6;
+}
+.navBar{
+  
+  width:100%;
+  background-color:#0E1111  ;
+  height: 70px;
+  z-index: 1;
+}
+.menuContainer{
+  float: left;
+  min-width: 150px;
+  height: 70px;
+  
+  color: #202121;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.menuText{
+  color: white;
+  position: fixed;
+  left: 7%;
+  top: 22px;
+  font-size: 22px;
+}
+.jfn{
+  position:relative;
+  left:80%;
+  background-color: red;
+  width: 800px;
+  height: 200px;
+}
+.menu-item{
+  width:200px;
+   position: relative;
+    display: block;
+    padding: 24px 36px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #202121;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.menu-item:hover{ 
+background-color: #fcfcfc;
+}
+
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #202121  ;
+  border-bottom: 1px solid #E6EAEA;
+  width:175px;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #49c5b6;
+}
+
+.bm-burger-button {
+  position: fixed;
+  width: 26px;
+  height: 20px;
+  left: 20px;
+  top: 26px;
+}
+
+.bm-burger-bars {
+  background: grey;
+}
+
+.bm-cross-button {
+  position: absolute;
+  left:0px;
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu {
+  background: #f4f7f6;
+  padding: 2.5em 1.5em 0 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill:#f4f7f6;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+

@@ -1,0 +1,83 @@
+table{
+    margin: auto;
+    position: relative;
+    top:60px;
+    width: 85%;
+    border-spacing:0 6px;
+   
+}
+td{
+    padding: 14px;
+    color:#1f1e1e;
+   
+    text-align: left;
+    border: none;
+    width:10%;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+th{
+    padding: 14px;
+   
+    text-align: left;
+    border: none;
+    width:10%;
+color:#03a9f4;
+font-size: 14px;
+font-weight: 500;
+
+}
+
+  tr{
+      height: 50px;
+      justify-content: space-around;
+     display: flex;
+     background-color: white;
+     margin-top: 8px;  
+     border:1px solid #00000017;
+
+  }
+  thead{
+    
+    background-color: white;
+    display: block;
+ }
+ 
+ input[type=text] {
+    width: 90px;
+    position: fixed;
+    top:15px;
+    right: 100px;
+    border: 1px solid #0E1111; 
+    border-radius: 38px;
+    font-size: 16px;
+    background-color: #0E1111;
+    padding: 9px 20px 10px 9px;
+    outline: none;
+    
+    transition: width 0.4s ease-in-out;
+  }
+  input[type=text]:focus {
+    width: 15%;
+    background-color: white;
+    border: 1px solid white;
+  }
+  .empText{
+    position: fixed;
+    top:3%;
+    font-size: 26px;
+    left:8%;
+    color: white;
+  }
+  .projectButton{
+      position: relative;
+      left  : 86%;
+      top:30px;
+      padding: 8px;
+      font-size: 14px;
+      background-color: blue;
+      color:white;
+      border: 1px solid blue;
+      cursor: pointer;   
+  }
